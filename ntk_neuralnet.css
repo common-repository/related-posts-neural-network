@@ -1,0 +1,45 @@
+/*
+Related Posts Neural Network - CSS for shortcode
+by Neil T King
+License: (C)2024+, Neil T King (www.neiltking.com)
+*/
+ul.ntkrecommended {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+ul.ntkrecommended li {
+	display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+    min-width: 220px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.4em;
+    vertical-align: top;
+}
+ul.recommendedlist {
+	list-style: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+ul.recommendedlist li {
+	display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    line-height: 1.4em;
+    clear: both;
+}
+ul.recommendedlist li img {
+    float: left;
+    width: 100px;
+    height: auto;
+    max-width: 25%;
+    margin-right: 20px;
+}

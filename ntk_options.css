@@ -1,0 +1,167 @@
+/*
+Related Posts Neural Network - CSS for dashboard options
+by Neil T King
+License: (C)2024+, Neil T King (www.neiltking.com)
+*/
+html {
+    touch-action: manipulation;
+}
+.ntktitle {
+	border: 2px solid #1d2327;
+	border-radius: 999px;
+	padding: 5px 15px !important;
+	text-align: center;
+	background: #FFFFFF;
+	color: #000000;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+.ntksection {
+	border: 2px solid #1d2327;
+	padding: 10px;
+	margin: 20px 0;
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+.ntksection h3 {
+	margin-top: 5px;
+}
+.ntksection table, .ntksection canvas {
+    border-radius: 6px;
+}
+.ntksection textarea {
+    width: 100%;
+    height: 5em;
+}
+.ntksection input[type="text"] {
+    width: 100%;
+}
+input[type="checkbox"].togswitch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    content: "";
+    font-size: 24px;
+    width: 2em;
+    height: 1em;
+    background: #DDDDDD;
+    vertical-align: text-bottom;
+    border: 0;
+    border-radius: 1em;
+    box-shadow: inset 0 0 0.2em rgba(0,0,0,0.5);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="checkbox"].togswitch + label {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: top;
+    font-size: 1.5em;
+}
+input[type="checkbox"].togswitch:checked {
+    background: #44FF44;
+}
+input[type="checkbox"].togswitch::before {
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+    content: "";
+    width: 1em;
+    height: 1em;
+    left: 0;
+    top: 0;
+    margin: 0;
+    background: #FFFFFF;
+    vertical-align: text-bottom;
+    border: 1px solid #888888;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em rgba(0,0,0,0.2);
+    transition: 0.25s;
+}
+input[type="checkbox"].togswitch:checked::before {
+    left: 1em;
+    transition: 0.25s;
+}
+input[type="checkbox"].bigswitch {
+    width: 3em;
+    height: 1.5em;
+}
+input[type="checkbox"].bigswitch + label {
+    font-size: 2em;
+}
+input[type="checkbox"].bigswitch::before {
+    width: 1.5em;
+    height: 1.5em;
+}
+input[type="checkbox"].bigswitch:checked::before {
+    left: 1.5em;
+}
+.halfwidth {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+    min-width: 320px;
+    vertical-align: top;
+    margin: 0;
+}
+.halfwidth .innerhalfwidth {
+    height: 400px;
+}
+#ntkneuralchart {
+    width: 100%;
+    height: 700px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.ntkneuralbuttons {
+	display: block;
+	font-size: 13px;
+}
+.ntkneuralbuttons a {
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+}
+.ntkneuralbuttons a:focus {
+	box-shadow: none;
+    border: 0;
+    outline: none;
+}
+.ntkneuralphysicsbuttons {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+}
+#ntkneuraltable {
+    box-sizing: border-box;
+}
+#ntkneuraltable thead, #ntkneuraltable tbody {
+    display: block;
+}
+#ntkneuraltable tbody {
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.ntkrowselected {
+    background: #66FF66 !important;
+}
+#ntkneuralbarchart {
+    background: #FFFFFF;
+}
+#ntkurl1, #ntkurl2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
